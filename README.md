@@ -1,9 +1,13 @@
 Check in Aula – Proyecto Java
+
 📍 Contexto
+
 Este proyecto es un sistema simple de registro de inscripciones al inicio de clase. Permite:
+
 •	Registrar inscripciones (Nombre, Documento, Curso, Hora automática).
 •	Listar todas las inscripciones y buscar por texto.
 •	Mostrar un resumen básico por curso.
+
 En esta versión, se agrega persistencia simple usando un archivo CSV, de modo que los datos se guardan entre ejecuciones. Además, se mantiene interfaz por consola y se agrega una GUI mínima usando JFrame.
 ________________________________________
 🗂 Estructura del proyecto
@@ -22,8 +26,10 @@ src/
    └─ App.java
 data/
 └─ inscripciones.csv   # archivo de persistencia generado automáticamente
+
 ________________________________________
 🧾 Código principal
+
 Inscripcion.java
 package edu.cerp.checkin.model;
 
