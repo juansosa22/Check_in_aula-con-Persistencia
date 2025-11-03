@@ -1,0 +1,14 @@
+# Compilados
+/out/
+*.class
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+*.iml
+
+# Archivos de datos
+/data/
