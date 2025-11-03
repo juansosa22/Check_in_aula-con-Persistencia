@@ -1,1 +1,34 @@
+# Compiled class files
+*.class
+
+# Java package files
+*.jar
+*.war
+*.ear
+
+# Eclipse / IntelliJ / NetBeans
+/.idea/
+/*.iml
+/.project
+/.classpath
+/.settings/
+
+# Build directories
+/bin/
+/out/
+/target/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data folder (para persistencia de inscripciones)
+data/
+
+# Temporary files
+*.tmp
+*.swp
 
